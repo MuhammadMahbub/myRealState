@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+<!-- meta -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="robot" content="follow, index">
+<meta name="author" content="">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="image/png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="436">
+<meta property="og:image:height" content="228">
+<meta property="og:description" content="">
+    <title>Agents Management - Baobab Property Services</title>
+    <link rel="canonical" href="" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="">
+    <!-- Custom CSS -->
+    <link href="plugins/bower_components/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css">
+    <!-- Custom CSS -->
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+<!-- Graph Chart -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
+        data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" data-navbarbg="skin5">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header" data-logobg="skin6">
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon -->
+                        <b class="logo-icon">
+                            <!-- Dark Logo icon -->
+                            <img src="" alt="" />
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text -->
+                        <span class="logo-text">
+                            <!-- dark Logo text -->
+                            <img src="" alt="" />
+                        </span>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none"
+                        href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
+                   
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav ms-auto d-flex align-items-center">
+
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <li class=" in">
+                            <form role="search" class="app-search d-none d-md-block me-3">
+                                <input type="text" placeholder="Search..." class="form-control mt-0">
+                                <a href="" class="active">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </form>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                         <li>
+                            <div class="dropstart">
+  <a href="" class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 30px;">
+    <img src="plugins/images/users/varun.jpg" alt="user-img" width="36"
+                                    class="rounded-circle">
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="profile.html"><i class="fa fa-user"></i> Profile</a></li>
+    <li><a class="dropdown-item" href="inbox.html"><i class="fa fa-envelope"></i> Message</a></li>
+    <li><a class="dropdown-item" href="notification.html"><i class="fa fa-bell"></i> Notifications</a></li>
+    <li><a class="dropdown-item" href="settings.php"><i class="fa fa-asterisk"></i> Account Settings</a></li>
+    <li><a class="dropdown-item" href="signout.html"><i class="fa fa-power-off"></i> Sign Out</a></li>
+  </ul>
+</div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" data-sidebarbg="skin6">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <!-- User Profile-->
+                        <li class="sidebar-item pt-2">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="index.html"
+                                aria-expanded="false">
+                                <i class="far fa-clock" aria-hidden="true"></i>
+                                <span class="hide-menu">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item pt-2 d-lg-none d-xl-none">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="inbox.html"
+                                aria-expanded="false">
+                                <i class="far fa-envelope" aria-hidden="true"></i>
+                                <span class="hide-menu">Message</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item pt-2 d-lg-none d-xl-none">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profile.html"
+                                aria-expanded="false">
+                                <i class="far fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu">Profile</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item pt-2">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="notification.html"
+                                aria-expanded="false">
+                                <i class="far fa-bell" aria-hidden="true"></i>
+                                <span class="hide-menu">Notifications</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="property.html"
+                                aria-expanded="false">
+                                <i class="fa fa-building" aria-hidden="true"></i>
+                                <span class="hide-menu">Property Management</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item dropdown">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link dropdown-toggle"
+                                aria-expanded="false" data-bs-toggle="dropdown">
+                                <i class="fa fa-th-large" aria-hidden="true"></i>
+                                <span class="hide-menu">Products Management</span>
+                            </a>
+                              <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="subscription-management.html">Subscription Management</a></li>
+    <li><a class="dropdown-item" href="commission-management.html">Commission Management</a></li>
+  </ul>
+                        </li>
+
+                        <li class="sidebar-item dropdown">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link dropdown-toggle"
+                                aria-expanded="false" data-bs-toggle="dropdown">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                <span class="hide-menu">Users Management</span>
+                            </a>
+                            <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="agents.html">Agents Management</a></li>
+    <li><a class="dropdown-item" href="landlords.html">Landlords Management</a></li>
+    <li><a class="dropdown-item" href="tenants.html">Tenants Management</a></li>
+    <li><a class="dropdown-item" href="contractors.html">Contractors Management</a></li>
+    <li><a class="dropdown-item" href="service-provider.html">Service Providers Management</a></li>
+  </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="role.html"
+                                aria-expanded="false">
+                                <i class="fa fa-user-plus" aria-hidden="true"></i>
+                                <span class="hide-menu">Role Management</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="content.html"
+                                aria-expanded="false">
+                                <i class="fa fa-edit" aria-hidden="true"></i>
+                                <span class="hide-menu">Content Management</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="expenses.html"
+                                aria-expanded="false">
+                                <i class="fa fa-book" aria-hidden="true"></i>
+                                <span class="hide-menu">Expenses Management</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="revenue.html"
+                                aria-expanded="false">
+                                <i class="fa fa-dollar" aria-hidden="true"><strong style="font-size: 20px;">&#x24; </strong></i>
+                                <span class="hide-menu">Revenue History</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="payments.html"
+                                aria-expanded="false">
+                                <i class="fa fa-credit-card" aria-hidden="true"></i>
+                                <span class="hide-menu">Payments & Payout</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item dropdown">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link dropdown-toggle"
+                                aria-expanded="false" data-bs-toggle="dropdown">
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                                <span class="hide-menu">Marketing Tools</span>
+                            </a>
+                            <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="advertisements.html">Create Advertisement</a></li>
+    <li><a class="dropdown-item" href="push-notification.html">Create Push-Notifications</a></li>
+    <li><a class="dropdown-item" href="announcement.html">Create Announcement</a></li>
+  </ul>
+                        </li>
+                        <li class="sidebar-item dropdown">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link dropdown-toggle"
+                                aria-expanded="false" data-bs-toggle="dropdown">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                <span class="hide-menu">Support</span>
+                            </a>
+                              <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+    <li><a class="dropdown-item" href="help.html">Help & Faqs</a></li>
+    <li><a class="dropdown-item" href="feedback.html">Give Us Feedback</a></li>
+  </ul>
+                        </li>
+                        <li class="text-center p-20 upgrade-btn">
+                            <a href="signout.html"
+                                class="btn d-grid btn-danger text-white" target="_blank"> Sign Out</a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <br/>
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h4><strong>Welcome Back, Arthur Mapunda</strong></h4>
+                <p>Lorem ipsum c'iest paris du saint germain.</p>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="text-right">
+                <a href="add-listing.html" class="btn btn-primary"><i class="fa fa-building"></i> Add New Property</a>
+                </div>
+                    </div>
+                </div>
+                <br/>
+                <!-- White Box -->
+                <div class="white-box">
+                  <h5><strong>All Agents</strong></h5>
+                  <div class="col-md-3 col-sm-4 col-xs-6 ms-auto">
+                                    <select class="form-select shadow-none row border-top">
+                                        <option>View All</option>
+                                        <option>Function 1</option>
+                                        <option>Function 2</option>
+                                        <option>Function 3</option>
+                                    </select>
+                                </div>
+                  <br/>
+                  <!-- Table with the list of all Tenants -->  
+                  <div id="agents">
+    <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Listing</th>
+        <th>Address</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Price Paid</th>
+        <th>Restrictions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John Doe</td>
+        <td>Dar es salaam, Tanzania</td>
+        <td>12</td>
+        <td>P.o.box 1245</td>
+        <td>john@gmail.com</td>
+        <td>+255745156165</td>
+        <td>Tsh 256,122</td>
+        <td>
+            <select class="form-select shadow-none row border-top">
+                <option>--- Restrict Agent ---</option>
+                <option>Block</option>
+                <option>Delete</option>
+            </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Aisha Doe</td>
+        <td>Kawe, Tanzania</td>
+        <td>24</td>
+        <td>P.o.box 756</td>
+        <td>john@gmail.com</td>
+        <td>+25571452642</td>
+        <td>Tsh 1,569,145</td>
+        <td>
+            <select class="form-select shadow-none row border-top">
+                <option>--- Restrict Agent ---</option>
+                <option>Block</option>
+                <option>Delete</option>
+            </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Jane Doe</td>
+        <td>Arusha, Tanzania</td>
+        <td>36</td>
+        <td>P.o.box 456</td>
+        <td>jane@gmail.com</td>
+        <td>+2557652120</td>
+        <td>Tsh 45,256,122</td>
+        <td>
+            <select class="form-select shadow-none row border-top">
+                <option>--- Restrict Agent ---</option>
+                <option>Block</option>
+                <option>Delete</option>
+            </select>
+        </td>
+      </tr>
+    </tbody>
+  </table> 
+                  </div>
+                </div>
+                <!-- End of white box -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer text-center"> &copy<script>document.write(new Date().getFullYear());</script> Baobab Property Services
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app-style-switcher.js"></script>
+    <script src="plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.js"></script>
+    <!--This page JavaScript -->
+    <!--chartis chart-->
+    <script src="plugins/bower_components/chartist/dist/chartist.min.js"></script>
+    <script src="plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="js/pages/dashboards/dashboard1.js"></script>
+</body>
+
+</html>

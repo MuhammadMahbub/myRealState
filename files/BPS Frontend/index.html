@@ -1,0 +1,1421 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+	<head>
+		<!-- Meta data -->
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="" >
+		<meta content="Baobab Property Services" name="author">
+		<meta name="keywords" content="#"/>
+
+		<!-- Favicon -->
+		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+		<!-- Title -->
+		<title>Baobab Property Services</title>
+
+		<!-- Bootstrap Css -->
+		<link id="style" href="./assets/plugins/bootstrap-5/css/bootstrap.min.css" rel="stylesheet" />
+
+		<!-- Dashboard Css -->
+		<link href="./assets/css/style.css" rel="stylesheet" />
+
+		<!-- Font-awesome  Css -->
+		<link href="./assets/css/icons.css" rel="stylesheet"/>
+
+		<!--Select2 Plugin -->
+		<link href="./assets/plugins/select2/select2.min.css" rel="stylesheet" />
+
+		<!-- Owl Theme css-->
+		<link href="./assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
+
+		<!-- P-scroll bar css-->
+		<link href="./assets/plugins/pscrollbar/perfect-scrollbar.css" rel="stylesheet" />
+
+	</head>
+	<body class="main-body">
+
+		<!--Loader-->
+		<div id="global-loader">
+			<img src="./assets/images/loader.svg" class="loader-img" alt="">
+		</div>
+
+		<!--Topbar-->
+		<div class="header-main">
+			<div class="top-bar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-8 col-lg-8 col-sm-4 col-7">
+							<div class="top-bar-left d-flex">
+								<div class="clearfix">
+									<ul class="socials">
+										<li>
+											<a class="social-icon text-dark" href="javascript:void(0);"><i class="fa fa-instagram"></i></a>
+										</li>
+										<li>
+											<a class="social-icon text-dark" href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
+										</li>
+										<li>
+											<a class="social-icon text-dark" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+										</li>
+										
+									</ul>
+								</div>
+								<div class="clearfix">
+									<ul class="contact">
+										<li class="me-5 d-lg-none">
+											<a href="javascript:void(0);" class="callnumber text-dark"><span><i class="fa fa-phone me-1"></i>: +255765272081</span></a>
+										</li>
+										<li class="select-country me-5">
+											<select class="form-control select2-flag-search" data-placeholder="Select Country">
+												<option value="TZ">Tanzania</option>
+												<option value="AO">Angola</option>
+												<option value="BW">Botswana</option>
+												<option value="BI">Burundi</option>
+												<option value="">Comoros </option>
+												<option value="CO">Congo (DRC)</option>
+												<option value="SZ">Eswatini</option>
+												<option value="ETH">Ethiopia</option>
+												<option value="KE">Kenya</option>
+												<option value="LS">Lesotho</option>
+												<option value="MW">Malawi</option>
+												<option value="">Mautius</option>
+												<option value="MZ">Mozambique</option>
+												<option value="NA">Namibia</option>
+												<option value="RW">Rwanda</option>
+												<option value="">Seychelles</option>
+												<option value="">South Africa</option>
+												<option value="SD">South Sudan</option>
+												<option value="UG">Uganda</option>
+												<option value="ZM">Zambia</option>
+												<option value="ZW">Zimbabwe</option>	
+											</select>
+										</li>
+										<li class="dropdown me-5">
+											<a href="javascript:void(0);" class="text-dark" data-bs-toggle="dropdown"><span> Language <i class="fa fa-caret-down text-muted"></i></span> </a>
+											<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+												<a href="javascript:void(0);" class="dropdown-item" >
+													English
+												</a>
+												<a class="dropdown-item" href="javascript:void(0);">
+													Swahili
+												</a>
+												<a class="dropdown-item" href="javascript:void(0);">
+													French
+												</a>
+												<a href="javascript:void(0);" class="dropdown-item" >
+													Portuguese  
+												</a>
+												<a href="javascript:void(0);" class="dropdown-item" >
+													Amharic
+												</a>
+											</div>
+										</li>
+										<li class="dropdown">
+											<a href="javascript:void(0);" class="text-dark" data-bs-toggle="dropdown"><span>Currency <i class="fa fa-caret-down text-muted"></i></span></a>
+											<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+												<a href="javascript:void(0);" class="dropdown-item" >
+													TSH
+												</a>
+												<a class="dropdown-item" href="javascript:void(0);">
+													EUR
+												</a>
+												<a class="dropdown-item" href="javascript:void(0);">
+													INR
+												</a>
+												<a href="javascript:void(0);" class="dropdown-item" >
+													GBP
+												</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-sm-8 col-5">
+							<div class="top-bar-right">
+								<ul class="custom">
+									<li>
+										<a href="register.html" class="text-dark"><i class="fa fa-user me-1"></i> <span>Register</span></a>
+									</li>
+									<li>
+										<a href="login.html" class="text-dark"><i class="fa fa-sign-in me-1"></i> <span>Login</span></a>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Duplex Houses Header -->
+			<div class="sticky">
+				<div class="horizontal-header clearfix ">
+					<div class="container">
+						<a id="horizontal-navtoggle" class="animated-arrow"><span></span></a>
+						<span class="smllogo">
+							<a href="index.html">
+								<img src="./assets/images/brand/logo12.png" class="mobile-light-logo" width="120" alt=""/>
+								<img src="./assets/images/brand/logo112.png" class="mobile-dark-logo" width="120" alt=""/>
+							</a>
+						</span>
+						<a href="tel:+255765272081" class="callusbtn"><i class="fa fa-phone" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- /Duplex Houses Header -->
+
+			<div class="horizontal-main bg-dark-transparent clearfix">
+				<div class="horizontal-mainwrapper container clearfix">
+					<div class="desktoplogo">
+						<a href="index.html"><img src="./assets/images/brand/logo123.png" alt=""></a>
+					</div>
+					<div class="desktoplogo-1">
+						<a href="index.html"><img src="./assets/images/brand/logo123.png" alt=""></a>
+					</div>
+					<!--Nav-->
+					<nav class="horizontalMenu clearfix d-md-flex">
+						<ul class="horizontalMenu-list">
+							<li aria-haspopup="true"><a href="index.html" class="active">Home</a></li>
+							<li aria-haspopup="true"><a href="real-estate-agent.html">Find Real Estate Agent</a></li>
+							<li aria-haspopup="true"><a href="register.html">Register</a></li>
+							<li aria-haspopup="true" class="d-lg-none mt-5 pb-5 mt-lg-0">
+								<span><a class="btn btn-secondary" href="register.html">Add Listing</a></span>
+							</li>
+						</ul>
+						<ul class="mb-0">
+							<li aria-haspopup="true" class="mt-3 d-none d-lg-block top-postbtn">
+								<span><a class="btn btn-secondary ad-post " href="register.html">Add Listing</a></span>
+							</li>
+						</ul>
+					</nav>
+					<!--Nav-->
+				</div>
+			</div>
+		</div>
+
+		<!--Sliders Section-->
+		<div>
+			<div class="banner-1 cover-image sptb-2 sptb-tab bg-background2" data-bs-image-src="./assets/images/banners/banner1.jpg">
+				<div class="header-text mb-0">
+					<div class="container">
+						<div class="text-center text-white mb-6">
+							<a href="javascript:void(0);" class="typewrite" data-period="2000" data-type='[ "Find Your Best Property" ]'>
+								<span class="wrap"></span>
+							</a>
+							<p>Short description goes here...</p>
+						</div>
+						<div class="row">
+							<div class="col-xl-10 col-lg-12 col-md-12 d-block mx-auto">
+								<div class="search-background bg-transparent">
+									<div class="form row no-gutters">
+									<div class="form-group col-xl-3 col-lg-3 col-md-12 select2-lg mb-0">
+										<select name="country" id="select-Categories12" class="form-control form-select select2 br-tr-md-0 br-br-md-0">
+											<option value="1" selected>All Status</option>
+											<option value="2">Rent</option>
+											<option value="3">Sale</option>
+										</select>
+									</div>
+									<div class="form-group col-xl-3 col-lg-3 col-md-12 select2-lg mb-0">
+										<select name="country" id="select-Categories13" class="form-control form-select br-md-0 select2">
+											<option value="1" selected>All Types</option>
+											<option value="2">Apartments</option>
+											<option value="3">Homes</option>
+											<option value="4">Offices </option>
+											<option value="5">Shops </option>
+											<option value="6">Warehouses/Godowns</option>
+											<option value="7">Plots for Sale</option>
+											
+										</select>
+									</div>
+									<div class="form-group col-xl-3 col-lg-3 col-md-12 select2-lg mb-0">
+										<select name="country" id="select-Categories14" class="form-control form-select br-md-0 select2">
+											<option value="1" selected>location</option>
+											<option value="2">Dar es salaam</option>
+											<option value="3">Zanzibar</option>
+											<option value="4">Mwanza</option>
+											<option value="5">Dodoma</option>
+											<option value="6">Arusha</option>
+											<option value="7">Morogoro</option>
+											<option value="8">Mbeya</option>
+											<option value="9">Iringa</option>
+										</select>
+									</div>
+									
+									
+									<div class="col-xl-3 col-lg-3 col-md-12 mb-0">
+										<a href="javascript:void(0);" class="br-tl-md-0 br-bl-md-0 btn btn-lg btn-block btn-primary">Search Now</a>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- /header-text -->
+			</div>
+		</div>
+		<!--Sliders Section-->
+
+		<!-- Categories-->
+		<section class="sptb bg-white">
+			<div class="container">
+				<div class="section-title center-block text-center">
+					<h2>Property Categories</h2>
+					<p>Short Description goes here...</p>
+				</div>
+				<div class="row">
+				<div class="col-md-12">
+					<div id="owl-demo2" class="owl-carousel owl-carousel-icons2">
+						<div class="item">
+							<div class="card">
+								<div class="card-body">
+									<div class="cat-item text-center">
+										<a href="javascript:void(0);"></a>
+										<div class="cat-img">
+											<img src="./assets/images/svgs/realestate/appartment.svg" alt="img">
+										</div>
+										<div class="cat-desc">
+											<h4 class="font-weight-semibold mb-0">Apartments for Rent</h4>
+											<span>(0)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="card">
+								<div class="card-body">
+									<div class="cat-item text-center">
+										<a href="javascript:void(0);"></a>
+										<div class="cat-img">
+											<img src="./assets/images/svgs/realestate/building.svg" alt="img">
+										</div>
+										<div class="cat-desc">
+											<h4 class="font-weight-semibold mb-0"> Apartments for sale</h4>
+											<span>(0)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="card">
+								<div class="card-body">
+									<div class="cat-item text-center">
+										<a href="javascript:void(0);"></a>
+										<div class="cat-img">
+											<img src="./assets/images/svgs/realestate/beach-house.svg" alt="img">
+										</div>
+										<div class="cat-desc">
+											<h4 class="font-weight-semibold mb-0">Homes for Rent</h4>
+											<span>(0)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="card">
+								<div class="card-body">
+									<div class="cat-item text-center">
+										<a href="javascript:void(0);"></a>
+										<div class="cat-img">
+											<img src="./assets/images/svgs/realestate/house.svg" alt="img">
+										</div>
+										<div class="cat-desc">
+											<h4 class="font-weight-semibold mb-0">Homes for Sale</h4>
+											<span>(0)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="card">
+								<div class="card-body">
+									<div class="cat-item text-center">
+										<a href="javascript:void(0);"></a>
+										<div class="cat-img">
+											<img src="./assets/images/svgs/realestate/balcony.svg" alt="img">
+										</div>
+										<div class="cat-desc">
+											<h4 class="font-weight-semibold mb-0">Offices for Rent </h4>
+											<span>(0)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="card">
+								<div class="card-body">
+									<div class="cat-item text-center">
+										<a href="javascript:void(0);"></a>
+										<div class="cat-img">
+											<img src="./assets/images/svgs/realestate/balcony.svg" alt="img">
+										</div>
+										<div class="cat-desc">
+											<h4 class="font-weight-semibold mb-0">Offices for Sale </h4>
+											<span>(0)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						
+						<div class="item">
+							<div class="card">
+								<div class="card-body">
+									<div class="cat-item text-center">
+										<a href="javascript:void(0);"></a>
+										<div class="cat-img">
+											<img src="./assets/images/svgs/realestate/cabin.svg" alt="img">
+										</div>
+										<div class="cat-desc">
+											<h4 class="font-weight-semibold mb-0">Shops for Rent</h4>
+											<span>(0)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="card">
+								<div class="card-body">
+									<div class="cat-item text-center">
+										<a href="javascript:void(0);"></a>
+										<div class="cat-img">
+											<img src="./assets/images/svgs/realestate/cabin.svg" alt="img">
+										</div>
+										<div class="cat-desc">
+											<h4 class="font-weight-semibold mb-0">Shops for Sale</h4>
+											<span>(0)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="card">
+								<div class="card-body">
+									<div class="cat-item text-center">
+										<a href="javascript:void(0);"></a>
+										<div class="cat-img">
+											<img src="./assets/images/svgs/realestate/balcony.svg" alt="img">
+										</div>
+										<div class="cat-desc">
+											<h4 class="font-weight-semibold mb-0">Warehouses for Rent </h4>
+											<span>(0)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="card">
+								<div class="card-body">
+									<div class="cat-item text-center">
+										<a href="javascript:void(0);"></a>
+										<div class="cat-img">
+											<img src="./assets/images/svgs/realestate/balcony.svg" alt="img">
+										</div>
+										<div class="cat-desc">
+											<h4 class="font-weight-semibold mb-0">Warehouses for Sale </h4>
+											<span>(0)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="card">
+								<div class="card-body">
+									<div class="cat-item text-center">
+										<a href="javascript:void(0);"></a>
+										<div class="cat-img">
+											<img src="./assets/images/svgs/realestate/balcony.svg" alt="img">
+										</div>
+										<div class="cat-desc">
+											<h4 class="font-weight-semibold mb-0">Plots for Sale </h4>
+											<span>(0)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+											
+					</div>
+				</div>
+				
+			</div>
+			</div>
+		</section>
+		<!--Categories-->
+
+		<!--Latest Properties for rent-->
+		<section class="sptb">
+			<div class="container">
+				<div class="section-title center-block text-center">
+					<h2>Latest Properties For Rent</h2>
+					<p>Latest Properties description goes here...</p>
+				</div>
+				<div id="myCarousel1" class="owl-carousel owl-carousel-icons2">
+					<div class="item">
+						<div class="card mb-0">
+							<div class="power-ribbon power-ribbon-top-left text-warning"><span class="bg-warning"><i class="fa fa-bolt"></i></span></div>
+							<div class="item-card2-img">
+								<a href="col-left.html"></a>
+								<img src="./assets/images/products/products/f1.jpg" alt="img" class="cover-image">
+								<div class="tag-text">
+									<span class="bg-danger tag-option">For Rent </span>
+								</div>
+							</div>
+							<div class="item-card2-icons">
+								<a href="javascript:void(0);" class="item-card2-icons-r bg-secondary"><i class="fa fa fa-heart-o"></i></a>
+							</div>
+							<div class="card-body">
+								<div class="item-card2">
+									<div class="item-card2-text">
+										<a href="col-left.html" class="text-dark"><h4 class="">Family Houses</h4></a>
+										<p class="mb-2"><i class="fa fa-map-marker text-danger me-1"></i> Property Area/Location </p>
+										<h5 class="font-weight-bold mb-3">Tsh 1,089,005 <span class="fs-12  font-weight-normal">Per Month</span></h5>
+									</div>
+									<ul class="item-card2-list">
+										<li><a href="javascript:void(0);"><i class="fa fa-arrows-alt text-muted me-1"></i> 256 Sqft</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bed text-muted me-1"></i> 3 Beds</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bath text-muted me-1"></i> 2 Bath</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-car text-muted me-1"></i> 1 Car</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="footerimg d-flex mt-0 mb-0">
+									<div class="d-flex footerimg-l mb-0">
+										<img src="./assets/images/faces/male/18.jpg" alt="image" class="avatar brround  me-2">
+										<h5 class="time-title text-muted p-0 leading-normal my-auto">Wendy	Peake<i class="si si-check text-success fs-12 ms-1" data-bs-toggle="tooltip" data-bs-placement="top" title="verified"></i></h5>
+									</div>
+									<div class="my-auto footerimg-r ms-auto">
+										<small class="text-muted">1 day ago</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card mb-0">
+							<div class="power-ribbon power-ribbon-top-left text-warning"><span class="bg-warning"><i class="fa fa-bolt"></i></span></div>
+							<div class="item-card2-img">
+								<a href="col-left.html"></a>
+								<img src="./assets/images/products/products/h4.jpg" alt="img" class="cover-image">
+								<div class="tag-text"><span class="bg-danger tag-option">For Rent </span></div>
+							</div>
+							<div class="item-card2-icons">
+								<a href="javascript:void(0);" class="item-card2-icons-r bg-secondary"><i class="fa fa fa-heart-o"></i></a>
+							</div>
+							<div class="card-body">
+								<div class="item-card2">
+									<div class="item-card2-text">
+										<a href="col-left.html" class="text-dark"><h4 class="">Apartments for Rent</h4></a>
+										<p class="mb-2"><i class="fa fa-map-marker text-danger me-1"></i> Property Area/Location </p>
+										<h5 class="font-weight-bold mb-3">Tsh 600,000 <span class="fs-12  font-weight-normal">Per Month</span></h5>
+									</div>
+									<ul class="item-card2-list">
+										<li><a href="javascript:void(0);"><i class="fa fa-arrows-alt text-muted me-1"></i> 150 Sqft</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bed text-muted me-1"></i> 2 Beds</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bath text-muted me-1"></i> 3 Bath</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-car text-muted me-1"></i> 1 Car</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="footerimg d-flex mt-0 mb-0">
+									<div class="d-flex footerimg-l mb-0">
+										<img src="./assets/images/faces/female/12.jpg" alt="image" class="avatar brround  me-2">
+										<h5 class="time-title text-muted p-0 leading-normal my-auto">Ryan Lyman<i class="si si-check text-success fs-12 ms-1" data-bs-toggle="tooltip" data-bs-placement="top" title="verified"></i></h5>
+									</div>
+									<div class="my-auto footerimg-r ms-auto">
+										<small class="text-muted">55 mins ago</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card mb-0">
+							<div class="item-card2-img">
+								<a href="col-left.html"></a>
+								<img src="./assets/images/products/products/b1.jpg" alt="img" class="cover-image">
+								<div class="tag-text">
+									<span class="bg-danger tag-option">For Rent </span>
+								</div>
+							</div>
+							<div class="item-card2-icons">
+								<a href="javascript:void(0);" class="item-card2-icons-r bg-secondary"><i class="fa fa fa-heart-o"></i></a>
+							</div>
+							<div class="card-body">
+								<div class="item-card2">
+									<div class="item-card2-text">
+										<a href="col-left.html" class="text-dark"><h4 class="">Office for Rent</h4></a>
+										<p class="mb-2"><i class="fa fa-map-marker text-danger me-1"></i> Property Area/Location </p>
+										<h5 class="font-weight-bold mb-3">Tsh 400,000 <span class="fs-12  font-weight-normal">Per Month</span></h5>
+									</div>
+									<ul class="item-card2-list">
+										<li><a href="javascript:void(0);"><i class="fa fa-arrows-alt text-muted me-1"></i> 256 Sqft</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bed text-muted me-1"></i> 8 Beds</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bath text-muted me-1"></i> 4 Bath</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-car text-muted me-1"></i> 4 Car</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="footerimg d-flex mt-0 mb-0">
+									<div class="d-flex footerimg-l mb-0">
+										<img src="./assets/images/faces/male/8.jpg" alt="image" class="avatar brround  me-2">
+										<h5 class="time-title text-muted p-0 leading-normal my-auto">Joan Hunter<i class="si si-check text-success fs-12 ms-1" data-bs-toggle="tooltip" data-bs-placement="top" title="verified"></i></h5>
+									</div>
+									<div class="my-auto footerimg-r ms-auto">
+										<small class="text-muted">2 day ago</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card mb-0">
+							<div class="power-ribbon power-ribbon-top-left text-warning"><span class="bg-warning"><i class="fa fa-bolt"></i></span></div>
+							<div class="item-card2-img">
+								<a href="col-left.html"></a>
+								<img src="./assets/images/products/products/v1.jpg" alt="img" class="cover-image">
+								<div class="tag-text"><span class="bg-danger tag-option">For Rent </span></div>
+							</div>
+							<div class="item-card2-icons">
+								<a href="javascript:void(0);" class="item-card2-icons-r bg-secondary"><i class="fa fa fa-heart-o"></i></a>
+							</div>
+							<div class="card-body">
+								<div class="item-card2">
+									<div class="item-card2-text">
+										<a href="col-left.html" class="text-dark"><h4 class="">Apartments</h4></a>
+										<p class="mb-2"><i class="fa fa-map-marker text-danger me-1"></i> Property Area/Location </p>
+										<h5 class="font-weight-bold mb-3">Tsh 1,000,000 <span class="fs-12  font-weight-normal">Per Month</span></h5>
+									</div>
+									<ul class="item-card2-list">
+										<li><a href="javascript:void(0);"><i class="fa fa-arrows-alt text-muted me-1"></i> 700 Sqft</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bed text-muted me-1"></i> 20 Beds</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bath text-muted me-1"></i> 10 Bath</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-car text-muted me-1"></i> 10 Car</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="footerimg d-flex mt-0 mb-0">
+									<div class="d-flex footerimg-l mb-0">
+										<img src="./assets/images/faces/female/19.jpg" alt="image" class="avatar brround  me-2">
+										<h5 class="time-title text-muted p-0 leading-normal my-auto">Elizabeth<i class="si si-check text-success fs-12 ms-1" data-bs-toggle="tooltip" data-bs-placement="top" title="verified"></i></h5>
+									</div>
+									<div class="my-auto footerimg-r ms-auto">
+										<small class="text-muted">50 mins ago</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item sold-out">
+						<div class="ribbon sold-ribbon ribbon-top-left text-danger"><span class="bg-danger">Sold Out</span></div>
+						<div class="card mb-0">
+							<div class="power-ribbon power-ribbon-top-left text-warning"><span class="bg-warning"><i class="fa fa-bolt"></i></span></div>
+							<div class="item-card2-img">
+								<a href="col-left.html"></a>
+								<img src="./assets/images/products/products/f3.jpg" alt="img" class="cover-image">
+								<div class="tag-text">
+									<span class="bg-danger tag-option">For Rent </span>
+								</div>
+							</div>
+							<div class="item-card2-icons">
+								<a href="javascript:void(0);" class="item-card2-icons-r bg-secondary"><i class="fa fa fa-heart-o"></i></a>
+							</div>
+							<div class="card-body">
+								<div class="item-card2">
+									<div class="item-card2-text">
+										<a href="col-left.html" class="text-dark"><h4 class="">Family House</h4></a>
+										<p class="mb-2"><i class="fa fa-map-marker text-danger me-1"></i> Property Area/Location </p>
+										<h5 class="font-weight-bold mb-3">Tsh 230,789 <span class="fs-12  font-weight-normal">Per Month</span></h5>
+									</div>
+									<ul class="item-card2-list">
+										<li><a href="javascript:void(0);"><i class="fa fa-arrows-alt text-muted me-1"></i> 300 Sqft</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bed text-muted me-1"></i> 4 Beds</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bath text-muted me-1"></i> 3 Bath</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-car text-muted me-1"></i> 1 Car</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="footerimg d-flex mt-0 mb-0">
+									<div class="d-flex footerimg-l mb-0">
+										<img src="./assets/images/faces/female/18.jpg" alt="image" class="avatar brround  me-2">
+										<h5 class="time-title text-muted p-0 leading-normal my-auto">Boris Nash<i class="si si-check text-success fs-12 ms-1" data-bs-toggle="tooltip" data-bs-placement="top" title="verified"></i></h5>
+									</div>
+									<div class="my-auto footerimg-r ms-auto">
+										<small class="text-muted">12 mins ago</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Latest Ads-->
+
+		<!--Featured Ads-->
+		<section class="sptb bg-white">
+			<div class="container">
+				<div class="section-title center-block text-center">
+					<h2>Latest Properties For Sale</h2>
+					<p>Short description goes here..</p>
+				</div>
+				<div id="myCarousel2" class="owl-carousel owl-carousel-icons2">
+					<!-- Wrapper for carousel items -->
+					<div class="item">
+						<div class="card mb-0">
+							<div class="arrow-ribbon bg-primary">For Sale</div>
+							<div class="item-card7-imgs">
+								<a href="col-left.html"></a>
+								<img src="./assets/images/products/products/b3.jpg" alt="img" class="cover-image">
+							</div>
+							<div class="item-card7-overlaytext">
+								<span class="mb-0 fs-13 active"><i class="fa fa fa-heart"></i></span>
+							</div>
+							<div class="card-body">
+								<div class="item-card7-desc">
+									<div class="item-card7-text">
+										<a href="col-left.html" class="text-dark"><h4 class="">Apartments</h4></a>
+										<p class=""><i class="icon icon-location-pin text-muted me-1"></i> Property Area/Location </p>
+									</div>
+									<ul class="item-cards7-ic mb-0">
+										<li><a href="javascript:void(0);"><i class="fa fa-arrows-alt text-muted me-1"></i> 300 Sqft</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bed text-muted me-1"></i> 4 Beds</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bath text-muted me-1"></i> 3 Bath</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-car text-muted me-1"></i> 1 Car</a></li>
+									</ul>
+									<h5 class="font-weight-bold mb-0">Ths 890,000 <span class="fs-12  font-weight-normal">Per Month</span></h5>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="d-flex mb-0">
+									<span class="fs-12"><i class="icon icon-event me-2 mt-1"></i>February 10 2023 </span>
+									<div class="ms-auto">
+										<a href="javascript:void(0);" class="" data-bs-toggle="tooltip" data-bs-placement="top" title="Share Property"><i class="icon icon-share text-muted"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card mb-0">
+							<div class="arrow-ribbon bg-purple">For Sale</div>
+							<div class="item-card7-imgs">
+								<a href="col-left.html"></a>
+								<img src="./assets/images/products/products/h3.jpg" alt="img" class="cover-image">
+							</div>
+							<div class="item-card7-overlaytext">
+								<span class="mb-0 fs-13"><i class="fa fa fa-heart-o"></i></span>
+							</div>
+							<div class="card-body">
+								<div class="item-card7-desc">
+									<div class="item-card7-text">
+										<a href="col-left.html" class="text-dark"><h4 class="">Family House</h4></a>
+										<p class=""><i class="icon icon-location-pin text-muted me-1"></i> Property Area/Location </p>
+									</div>
+									<ul class="item-cards7-ic mb-0">
+										<li><a href="javascript:void(0);"><i class="fa fa-arrows-alt text-muted me-1"></i> 300 Sqft</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bed text-muted me-1"></i> 4 Beds</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bath text-muted me-1"></i> 3 Bath</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-car text-muted me-1"></i> 1 Car</a></li>
+									</ul>
+									<h5 class="font-weight-bold mb-0">Tsh 500,000 <span class="fs-12  font-weight-normal">Per Month</span></h5>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="d-flex mb-0">
+									<span class="fs-12"><i class="icon icon-event me-2 mt-1"></i>February 05 2023 </span>
+									<div class="ms-auto">
+										<a href="javascript:void(0);" class="" data-bs-toggle="tooltip" data-bs-placement="top" title="Share Property"><i class="icon icon-share text-muted"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card mb-0">
+							<div class="arrow-ribbon bg-secondary">For Sale</div>
+							<div class="item-card7-imgs">
+								<a href="col-left.html"></a>
+								<img src="./assets/images/products/products/v4.jpg" alt="img" class="cover-image">
+							</div>
+							<div class="item-card7-overlaytext">
+								<span class="mb-0 fs-13 active"><i class="fa fa fa-heart"></i></span>
+							</div>
+							<div class="card-body">
+								<div class="item-card7-desc">
+									<div class="item-card7-text">
+										<a href="col-left.html" class="text-dark"><h4 class="">House for Rent</h4></a>
+										<p class=""><i class="icon icon-location-pin text-muted me-1"></i> Property Area/Location</p>
+									</div>
+									<ul class="item-cards7-ic mb-0">
+										<li><a href="javascript:void(0);"><i class="fa fa-arrows-alt text-muted me-1"></i> 300 Sqft</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bed text-muted me-1"></i> 4 Beds</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bath text-muted me-1"></i> 3 Bath</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-car text-muted me-1"></i> Parking details 1 Car</a></li>
+									</ul>
+									<h5 class="font-weight-bold mb-0">Tsh 300,000 <span class="fs-12  font-weight-normal">Per Month</span></h5>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="d-flex mb-0">
+									<span class="fs-12"><i class="icon icon-event me-2 mt-1"></i>March 29 2023 </span>
+									<div class="ms-auto">
+										<a href="javascript:void(0);" class="" data-bs-toggle="tooltip" data-bs-placement="top" title="Share Property"><i class="icon icon-share text-muted"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="card mb-0">
+							<div class="arrow-ribbon bg-primary">For Sale</div>
+							<div class="item-card7-imgs">
+								<a href="col-left.html"></a>
+								<img src="./assets/images/products/products/f2.jpg" alt="img" class="cover-image">
+							</div>
+							<div class="item-card7-overlaytext">
+								<span class="mb-0 fs-13"><i class="fa fa fa-heart-o"></i></span>
+							</div>
+							<div class="card-body">
+								<div class="item-card7-desc">
+									<div class="item-card7-text">
+										<a href="col-left.html" class="text-dark"><h4 class="">Office For Rent</h4></a>
+										<p class=""><i class="icon icon-location-pin text-muted me-1"></i> Property Area/Location</p>
+									</div>
+									<ul class="item-cards7-ic mb-0">
+										<li><a href="javascript:void(0);"><i class="fa fa-arrows-alt text-muted me-1"></i> 300 Sqft</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bed text-muted me-1"></i> 4 Beds</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bath text-muted me-1"></i> 3 Bath</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-car text-muted me-1"></i> 1 Car</a></li>
+									</ul>
+									<h5 class="font-weight-bold mb-0">Tsh 989,005 <span class="fs-12  font-weight-normal">Per Month</span></h5>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="d-flex mb-0">
+									<span class="fs-12"><i class="icon icon-event me-2 mt-1"></i>January 25 2023 </span>
+									<div class="ms-auto">
+										<a href="javascript:void(0);" class="" data-bs-toggle="tooltip" data-bs-placement="top" title="Share Property"><i class="icon icon-share text-muted"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item sold-out">
+						<div class="ribbon sold-ribbon ribbon-top-left text-danger"><span class="bg-danger">Sold Out</span></div>
+						<div class="card mb-0">
+							<div class="arrow-ribbon bg-secondary">For Sale</div>
+							<div class="item-card7-imgs">
+								<a href="col-left.html"></a>
+								<img src="./assets/images/products/products/j3.jpg" alt="img" class="cover-image">
+							</div>
+							<div class="item-card7-overlaytext">
+								<span class="mb-0 fs-13 active"><i class="fa fa fa-heart"></i></span>
+							</div>
+							<div class="card-body">
+								<div class="item-card7-desc">
+									<div class="item-card7-text ">
+										<a href="col-left.html" class="text-dark"><h4 class="">Modern House For Sale</h4></a>
+										<p class=""><i class="icon icon-location-pin text-muted me-1"></i> Property Area/Location  </p>
+									</div>
+									<ul class="item-cards7-ic mb-0">
+										<li><a href="javascript:void(0);"><i class="fa fa-arrows-alt text-muted me-1"></i> 300 Sqft</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bed text-muted me-1"></i> 4 Beds</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-bath text-muted me-1"></i> 3 Bath</a></li>
+										<li><a href="javascript:void(0);" class="icons"><i class="fa fa-car text-muted me-1"></i> 1 Car</a></li>
+									</ul>
+									<h5 class="font-weight-bold mb-0">Tsh 400,005 <span class="fs-12  font-weight-normal">Per Month</span></h5>
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="d-flex mb-0">
+									<span class="fs-12"><i class="icon icon-event me-2 mt-1"></i>June 19 2022 </span>
+									<div class="ms-auto">
+										<a href="javascript:void(0);" class="" data-bs-toggle="tooltip" data-bs-placement="top" title="Share Property"><i class="icon icon-share text-muted"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/Featured Ads-->
+
+		
+		<!--Statistics-->
+		<section>
+			<div class="about-1 cover-image sptb bg-background2" data-bs-image-src="./assets/images/banners/banner5.jpg">
+				<div class="content-text mb-0 text-white info">
+					<div class="container">
+						<div class="row text-center">
+							<div class="col-lg-3 col-md-6">
+								<div class="counter-status md-mb-0">
+									<div class="counter-icon">
+										<i class="icon icon-people"></i>
+									</div>
+									<h5>Total Properties</h5>
+									<h2 class="counter mb-0 font-weight-bold">3453</h2>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="counter-status status-1 md-mb-0">
+									<div class="counter-icon text-warning">
+										<i class="icon icon-rocket"></i>
+									</div>
+									<h5>Total Landlords</h5>
+									<h2 class="counter mb-0 font-weight-bold">0</h2>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="counter-status status md-mb-0">
+									<div class="counter-icon text-primary">
+										<i class="icon icon-docs"></i>
+									</div>
+									<h5>Total Agents</h5>
+									<h2 class="counter mb-0 font-weight-bold">0</h2>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6">
+								<div class="counter-status status">
+									<div class="counter-icon text-success">
+										<i class="icon icon-emotsmile"></i>
+									</div>
+									<h5>Total Tenants</h5>
+									<h2 class="counter font-weight-bold mb-0">0</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/Statistics-->
+
+		<!--Blogs-->
+		<section class="sptb">
+			<div class="container">
+				<div class="section-title center-block text-center">
+					<h2>What Makes Us The Preferred Choice ?</h2>
+					<p>Description goes here...</p>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="">
+							<div class="mb-lg-0 mb-5">
+								<div class="service-card text-center">
+									<div class="bg-white icon-bg  icon-service text-purple about">
+										<i class="fe fe-pocket text-primary"></i>
+									</div>
+									<div class="servic-data mt-3">
+										<h4 class="font-weight-semibold mb-2">Renters & Buyers Trust Us</h4>
+										<p class="text-muted mb-0">Nam libero tempore, cum soluta nobis est eligendi cumque facere possimus</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="">
+							<div class="mb-sm-0 mb-5">
+								<div class="service-card text-center">
+									<div class="bg-white icon-bg  icon-service text-purple about">
+										<i class="fe fe-thumbs-up text-secondary"></i>
+									</div>
+									<div class="servic-data mt-3">
+										<h4 class="font-weight-semibold mb-2">Landlords & Sellers Prefer Us</h4>
+										<p class="text-muted mb-0">Nam libero tempore, cum soluta nobis est eligendi cumque facere possimus</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="">
+							<div class="mb-sm-0 mb-5">
+								<div class="service-card text-center">
+									<div class="bg-white icon-bg  icon-service text-purple about">
+										<i class="fe fe-file-text text-success"></i>
+									</div>
+									<div class="servic-data mt-3">
+										<h4 class="font-weight-semibold mb-2"> 1st Choice for Agents</h4>
+										<p class="text-muted mb-0">Nam libero tempore, cum soluta nobis est eligendi cumque facere possimus</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="">
+							<div class="">
+								<div class="service-card text-center">
+									<div class="bg-white icon-bg  icon-service text-purple about">
+										<i class="fe fe-users text-info"></i>
+									</div>
+									<div class="servic-data mt-3">
+										<h4 class="font-weight-semibold mb-2">Expert Guidance</h4>
+										<p class="text-muted mb-0">Nam libero tempore, cum soluta nobis est eligendi cumque facere possimus</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Blogs-->
+
+		<!--Testimonials-->
+		<section class="sptb bg-white">
+			<div class="container">
+				<div class="section-title center-block text-center">
+					<h2 class=" position-relative">What Our Clients Say About Us</h2>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="">
+							<div id="myCarousel" class="owl-carousel testimonial-owl-carousel">
+								<div class="item text-center">
+									<div class="card-body p-0">
+										<div class="row">
+											<div class="col-xl-8 col-md-12 d-block mx-auto">
+												<div class="">
+													<div class="testimonia-img mx-auto mb-3">
+														<img src="./assets/images/faces/female/11.jpg" class="img-thumbnail rounded-circle alt=" alt="">
+													</div>
+													<p>
+														<i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in cillum dolore eu fugiat nulla pariatur.
+													</p>
+													<div class="testimonia-data">
+														<h4 class="fs-20 mb-1">Heather Bell</h4>
+														<div class="rating-stars">
+															<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value"  value="3">
+															<div class="rating-stars-container mb-2">
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+															</div>
+														</div>
+														<a href="testimonial.html" class="btn btn-primary btn-lg">View all Testimonials</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item text-center">
+									<div class="card-body p-0">
+										<div class="row">
+											<div class="col-xl-8 col-md-12 d-block mx-auto">
+												<div class="">
+													<div class="testimonia-img mx-auto mb-3">
+														<img src="./assets/images/faces/male/42.jpg" class="img-thumbnail rounded-circle alt=" alt="">
+													</div>
+													<p><i class="fa fa-quote-left"></i> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Nor again is there anyone who loves or pursues obtain pain of itself, because laboriosam ex ea commodi consequatur. </p>
+													<div class="testimonia-data">
+														<h4 class="fs-20 mb-1">David Blake</h4>
+														<div class="rating-stars">
+															<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value"  value="3">
+															<div class="rating-stars-container mb-2">
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+															</div>
+															<a href="testimonial.html" class="btn btn-primary btn-lg">View all Testimonials</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item text-center">
+									<div class="card-body p-0">
+										<div class="row">
+											<div class="col-xl-8 col-md-12 d-block mx-auto">
+												<div class="">
+													<div class="testimonia-img mx-auto mb-3">
+														<img src="./assets/images/faces/female/20.jpg" class="img-thumbnail rounded-circle alt=" alt="">
+													</div>
+													<p><i class="fa fa-quote-left"></i> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum exercitation ullamco laboris nisi.</p>
+													<div class="testimonia-data">
+														<h4 class="fs-20 mb-1">Sophie Carr</h4>
+														<div class="rating-stars">
+															<input type="number" readonly="readonly" class="rating-value star" name="rating-stars-value"  value="3">
+															<div class="rating-stars-container mb-2">
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+																<div class="rating-star sm">
+																	<i class="fa fa-star"></i>
+																</div>
+															</div>
+														</div>
+														<a href="testimonial.html" class="btn btn-primary btn-lg">View all Testimonials</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/Testimonials-->
+
+		<!--News-->
+		<section class="sptb">
+			<div class="container">
+				<div class="section-title center-block text-center">
+					<h2>Latest News</h2>
+					<p>Description goes here...</p>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-12 col-xl-4">
+						<div class="card mb-lg-0">
+							<div class="item7-card-img">
+								<a href="blog-details.html"></a>
+								<img src="./assets/images/products/products/ed1.jpg" alt="img" class="cover-image">
+								<div class="item7-card-text">
+									<span class="badge badge-info">News Category 1</span>
+								</div>
+							</div>
+							<div class="card-body p-4">
+								<div class="item7-card-desc d-flex mb-2">
+									<a href="javascript:void(0);" class="text-muted"><i class="fa fa-calendar-o text-muted me-2"></i>July-03-2019</a>
+									<div class="ms-auto">
+										<a href="javascript:void(0);" class="text-muted"><i class="fa fa-comment-o text-muted me-2"></i>4 Comments</a>
+									</div>
+								</div>
+								<a href="blog-details.html" class="text-dark"><h4 class="fs-20">News Heading</h4></a>
+								<p>Short description about news goes here... </p>
+								<div class="d-flex align-items-center pt-2 mt-auto">
+									<img src="./assets/images/faces/male/5.jpg" class="avatar brround avatar-md me-3" alt="avatar-img">
+									<div>
+										<a href="userprofile.html" class="text-default">Posted by Admin</a>
+										<small class="d-block text-muted">1 day ago</small>
+									</div>
+									<div class="ms-auto text-muted">
+										<a href="javascript:void(0)" class="icon d-none d-md-inline-block ms-3"><i class="fe fe-heart me-1"></i></a>
+										<a href="javascript:void(0)" class="icon d-none d-md-inline-block ms-3"><i class="fa fa-thumbs-o-up"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 col-xl-4">
+						<div class="card mb-lg-0">
+							<div class="item7-card-img">
+								<a href="blog-details.html"></a>
+								<img src="./assets/images/products/products/ed1.jpg" alt="img" class="cover-image">
+								<div class="item7-card-text">
+									<span class="badge badge-primary">News Category 2</span>
+								</div>
+							</div>
+							<div class="card-body p-4">
+								<div class="item7-card-desc d-flex mb-2">
+									<a href="javascript:void(0);" class="text-muted"><i class="fa fa-calendar-o text-muted me-2"></i>July-03-2019</a>
+									<div class="ms-auto">
+										<a href="javascript:void(0);" class="text-muted"><i class="fa fa-comment-o text-muted me-2"></i>4 Comments</a>
+									</div>
+								</div>
+								<a href="blog-details.html" class="text-dark"><h4 class="fs-20">News Heading</h4></a>
+								<p>Short description about news goes here... </p>
+								<div class="d-flex align-items-center pt-2 mt-auto">
+									<img src="./assets/images/faces/male/5.jpg" class="avatar brround avatar-md me-3" alt="avatar-img">
+									<div>
+										<a href="userprofile.html" class="text-default">Posted by Admin</a>
+										<small class="d-block text-muted">1 day ago</small>
+									</div>
+									<div class="ms-auto text-muted">
+										<a href="javascript:void(0)" class="icon d-none d-md-inline-block ms-3"><i class="fe fe-heart me-1"></i></a>
+										<a href="javascript:void(0)" class="icon d-none d-md-inline-block ms-3"><i class="fa fa-thumbs-o-up"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 col-xl-4">
+						<div class="card mb-lg-0">
+							<div class="item7-card-img">
+								<a href="blog-details.html"></a>
+								<img src="./assets/images/products/products/ed1.jpg" alt="img" class="cover-image">
+								<div class="item7-card-text">
+									<span class="badge badge-success">News Category 3</span>
+								</div>
+							</div>
+							<div class="card-body p-4">
+								<div class="item7-card-desc d-flex mb-2">
+									<a href="javascript:void(0);" class="text-muted"><i class="fa fa-calendar-o text-muted me-2"></i>July-03-2019</a>
+									<div class="ms-auto">
+										<a href="javascript:void(0);" class="text-muted"><i class="fa fa-comment-o text-muted me-2"></i>4 Comments</a>
+									</div>
+								</div>
+								<a href="blog-details.html" class="text-dark"><h4 class="fs-20">News Heading</h4></a>
+								<p>Short description about news goes here... </p>
+								<div class="d-flex align-items-center pt-2 mt-auto">
+									<img src="./assets/images/faces/male/5.jpg" class="avatar brround avatar-md me-3" alt="avatar-img">
+									<div>
+										<a href="userprofile.html" class="text-default">Posted by Admin</a>
+										<small class="d-block text-muted">1 day ago</small>
+									</div>
+									<div class="ms-auto text-muted">
+										<a href="javascript:void(0)" class="icon d-none d-md-inline-block ms-3"><i class="fe fe-heart me-1"></i></a>
+										<a href="javascript:void(0)" class="icon d-none d-md-inline-block ms-3"><i class="fa fa-thumbs-o-up"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+			</div>
+		</section>
+		<!--News-->
+
+		<!--Download -->
+		<section class="sptb bg-white">
+			<div class="container">
+				<div class="section-title center-block text-center">
+					<h2>Download</h2>
+					<p>Short description about app download goes here...</p>
+				</div>
+                <div class="row">
+					<div class="col-md-12">
+						<div class="text-center text-wrap">
+							<div class="btn-list">
+								<a href="javascript:void(0);" class="btn btn-primary btn-lg mb-sm-0"><i class="fa fa-apple fa-1x me-2"></i> App Store</a>
+								<a href="javascript:void(0);" class="btn btn-secondary btn-lg mb-sm-0"><i class="fa fa-android fa-1x me-2"></i> Google Play</a>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Download -->
+
+		<!--Footer Section-->
+		<section class="main-footer">
+			<footer class="bg-dark text-white">
+				<div class="footer-main">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-3 col-md-12">
+								<h6>About</h6>
+								<hr class="deep-purple  accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<p>About us short description goes here...</p>
+							</div>
+							<div class="col-lg-2 col-sm-6">
+								<h6>Our Quick Links</h6>
+								 <hr class="deep-purple text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<ul class="list-unstyled mb-0">
+									<li><a href="javascript:;">Our Team</a></li>
+									<li><a href="javascript:;">Contact US</a></li>
+									<li><a href="javascript:;">Terms of services</a></li>
+									<li><a href="javascript:;">Our Blog</a></li>
+									<li><a href="javascript:;">Agent Resource Center</a></li>
+								</ul>
+							</div>
+
+							<div class="col-lg-3 col-sm-6">
+								<h6>Contact</h6>
+								<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<ul class="list-unstyled mb-0">
+									<li>
+										<a href="javascript:void(0);"><i class="fa fa-home me-3 text-primary"></i> 191 Mwai Kibaki Road, Kawe Beach, Dar es salaam.</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);"><i class="fa fa-envelope me-3 text-primary"></i> info@bps.com</a></li>
+									<li>
+										<a href="javascript:void(0);"><i class="fa fa-phone me-3 text-primary"></i> +255 763 210 607</a>
+									</li>
+									 <li>
+										<a href="javascript:void(0);"><i class="fa fa-print me-3 text-primary"></i> +255 765 272 081</a>
+									</li>
+								</ul>
+								<ul class="list-unstyled list-inline mt-3">
+									<li class="list-inline-item">
+									  <a class="btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light">
+										<i class="fa fa-facebook bg-facebook"></i>
+									  </a>
+									</li>
+									<li class="list-inline-item">
+									  <a class="btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light">
+										<i class="fa fa-twitter bg-info"></i>
+									  </a>
+									</li>
+									<li class="list-inline-item">
+									  <a class="btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light">
+										<i class="fa fa-google-plus bg-danger"></i>
+									  </a>
+									</li>
+									<li class="list-inline-item">
+									  <a class="btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light">
+										<i class="fa fa-linkedin bg-linkedin"></i>
+									  </a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-12">
+								<h6>Subscribe Newsletter</h6>
+								<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<div class="clearfix"></div>
+								<div class="input-group w-100">
+									<input type="text" class="form-control br-tl-3  br-bl-3 " placeholder="Email">
+										<button type="button" class="btn btn-primary br-tr-3  br-br-3"> Subscribe </button>
+								</div>
+								<h6 class="mb-0 mt-5">Payments</h6>
+								<hr class="deep-purple  text-primary accent-2 mb-2 mt-3 d-inline-block mx-auto">
+								<div class="clearfix"></div>
+								<ul class="footer-payments">
+									<li class="ps-0"><a href="javascript:;"><i class="fa fa-cc-amex text-muted" aria-hidden="true"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-cc-visa text-muted" aria-hidden="true"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-credit-card-alt text-muted" aria-hidden="true"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-cc-mastercard text-muted" aria-hidden="true"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-cc-paypal text-muted" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bg-dark text-white p-0">
+					<div class="container">
+						<div class="row d-flex">
+							<div class="col-lg-12 col-sm-12 mt-3 mb-3 text-center ">
+								Copyright © 2023 <a href="javascript:void(0);" class="fs-14 text-primary">Baobab Property Services</a>. All rights reserved.
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</section>
+		<!--Footer Section-->
+
+		<!-- Back to top -->
+		<a href="#top" id="back-to-top" ><i class="fa fa-rocket"></i></a>
+
+		<!-- JQuery js-->
+		<script src="./assets/js/vendors/jquery-3.6.0.min.js"></script>
+
+		<!-- Bootstrap js -->
+		<script src="./assets/plugins/bootstrap-5/popper.min.js"></script>
+		<script src="./assets/plugins/bootstrap-5/js/bootstrap.min.js"></script>
+
+		<!--JQuery RealEstaterkline Js-->
+		<script src="./assets/js/vendors/jquery.sparkline.min.js"></script>
+
+		<!-- Circle Progress Js-->
+		<script src="./assets/js/vendors/circle-progress.min.js"></script>
+
+		<!-- Star Rating Js-->
+		<script src="./assets/plugins/rating/jquery.rating-stars.js"></script>
+
+		<!--Owl Carousel js -->
+		<script src="./assets/plugins/owl-carousel/owl.carousel.js"></script>
+
+		<!--Horizontal Menu-->
+		<script src="./assets/plugins/horizontal-menu/horizontal.js"></script>
+
+		<!--Counters -->
+		<script src="./assets/plugins/counters/counterup.min.js"></script>
+		<script src="./assets/plugins/counters/waypoints.min.js"></script>
+		<script src="./assets/plugins/counters/numeric-counter.js"></script>
+
+		<!--JQuery TouchSwipe js-->
+		<script src="./assets/js/jquery.touchSwipe.min.js"></script>
+
+		<!--Select2 js -->
+		<script src="./assets/plugins/select2/select2.full.min.js"></script>
+		<script src="./assets/js/select2.js"></script>
+
+		
+
+		<!-- sticky Js-->
+		<script src="./assets//js/sticky.js"></script>
+
+		<!-- P-scroll bar Js-->
+		<script src="./assets/plugins/pscrollbar/perfect-scrollbar.js"></script>
+
+		<!-- Swipe Js-->
+		<script src="./assets/js/swipe.js"></script>
+
+		<!-- Scripts Js-->
+		<script src="./assets/js/owl-carousel.js"></script>
+
+		<!-- themecolor Js-->
+		<script src="./assets/js/themeColors.js"></script>
+
+		<!-- Typewritter Js-->
+		<script src="./assets/js/typewritter.js"></script>
+
+		<!-- Custom Js-->
+		<script src="./assets/js/custom.js"></script>
+
+		<!-- Custom-switcher Js-->
+		<script src="./assets/js/custom-switcher.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+	<head>
+		<!-- Meta data -->
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content=""/>
+
+		<!-- Favicon -->
+		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+		<!-- Title -->
+		<title>Real Estate Agent | </title>
+
+		<!-- Bootstrap Css -->
+		<link id="style" href="./assets/plugins/bootstrap-5/css/bootstrap.min.css" rel="stylesheet" />
+
+		<!-- Dashboard Css -->
+		<link href="./assets/css/style.css" rel="stylesheet" />
+
+		<!-- Font-awesome  Css -->
+		<link href="./assets/css/icons.css" rel="stylesheet"/>
+
+		<!--Select2 Plugin -->
+		<link href="./assets/plugins/select2/select2.min.css" rel="stylesheet" />
+
+		<!-- P-scroll bar css-->
+		<link href="./assets/plugins/pscrollbar/perfect-scrollbar.css" rel="stylesheet" />
+
+	</head>
+
+	<body class="main-body">
+
+		
+
+		<!--Topbar-->
+		<div class="header-main">
+			<div class="top-bar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-8 col-lg-8 col-sm-4 col-7">
+							<div class="top-bar-left d-flex">
+								<div class="clearfix">
+									<ul class="socials">
+										<li>
+											<a class="social-icon text-dark" href="javascript:void(0);"><i class="fa fa-instagram"></i></a>
+										</li>
+										<li>
+											<a class="social-icon text-dark" href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
+										</li>
+										<li>
+											<a class="social-icon text-dark" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+										</li>
+									</ul>
+								</div>
+								<div class="clearfix">
+									<ul class="contact">
+										<li class="me-5 d-lg-none">
+											<a href="javascript:void(0);" class="callnumber text-dark"><span><i class="fa fa-phone me-1"></i>: +425 345 8765</span></a>
+										</li>
+										<li class="select-country me-5">
+											<select class="form-control select2-flag-search" data-placeholder="Select Country">
+												<option value="TZ">Tanzania</option>
+												<option value="KE">Kenya</option>
+												<option value="UG">Uganda</option>
+												<option value="RW">Rwanda</option>
+												<option value="CO">Congo</option>
+												<option value="BI">Burundi</option>
+												<option value="SD">South Sudan</option>
+											</select>
+										</li>
+										<li class="dropdown me-5">
+											<a href="javascript:void(0);" class="text-dark" data-bs-toggle="dropdown"><span> Language <i class="fa fa-caret-down text-muted"></i></span> </a>
+											<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+												<a href="javascript:void(0);" class="dropdown-item" >
+													English
+												</a>
+												<a class="dropdown-item" href="javascript:void(0);">
+													Arabic
+												</a>
+												<a class="dropdown-item" href="javascript:void(0);">
+													German
+												</a>
+												<a href="javascript:void(0);" class="dropdown-item" >
+													Greek
+												</a>
+												<a href="javascript:void(0);" class="dropdown-item" >
+													Japanese
+												</a>
+											</div>
+										</li>
+										<li class="dropdown">
+											<a href="javascript:void(0);" class="text-dark" data-bs-toggle="dropdown"><span>Currency <i class="fa fa-caret-down text-muted"></i></span></a>
+											<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+												<a href="javascript:void(0);" class="dropdown-item" >
+													USD
+												</a>
+												<a class="dropdown-item" href="javascript:void(0);">
+													EUR
+												</a>
+												<a class="dropdown-item" href="javascript:void(0);">
+													INR
+												</a>
+												<a href="javascript:void(0);" class="dropdown-item" >
+													GBP
+												</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-sm-8 col-5">
+							<div class="top-bar-right">
+								<ul class="custom">
+									<li>
+										<a href="register.html" class="text-dark"><i class="fa fa-user me-1"></i> <span>Register</span></a>
+									</li>
+									<li>
+										<a href="login.html" class="text-dark"><i class="fa fa-sign-in me-1"></i> <span>Login</span></a>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Duplex Houses Header -->
+			<div class="sticky">
+				<div class="horizontal-header clearfix ">
+					<div class="container">
+						<a id="horizontal-navtoggle" class="animated-arrow"><span></span></a>
+						<span class="smllogo">
+							<a href="index.html">
+								<img src="./assets/images/brand/logo12.png" class="mobile-light-logo" width="120" alt=""/>
+								<img src="./assets/images/brand/logo112.png" class="mobile-dark-logo" width="120" alt=""/>
+							</a>
+						</span>
+						<a href="tel:+255765272081" class="callusbtn"><i class="fa fa-phone" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- /Duplex Houses Header -->
+
+			<div class="horizontal-main bg-dark-transparent clearfix">
+				<div class="horizontal-mainwrapper container clearfix">
+					<div class="desktoplogo">
+						<a href="index.html"><img src="./assets/images/brand/logo123.png" alt=""></a>
+					</div>
+					<div class="desktoplogo-1">
+						<a href="index.html"><img src="./assets/images/brand/logo123.png" alt=""></a>
+					</div>
+					<!--Nav-->
+					<nav class="horizontalMenu clearfix d-md-flex">
+						<ul class="horizontalMenu-list">
+							<li aria-haspopup="true"><a href="index.html" >Home</a></li>
+							<li aria-haspopup="true"><a href="agent.html">Find Real Estate Agent</a></li>
+							<li aria-haspopup="true"><a href="register.html">Register</a></li>
+							<li class="d-lg-none mt-5 pb-5 mt-lg-0">
+								<span><a class="btn btn-secondary" href="register.html">Add Listing</a></span>
+							</li>
+						</ul>
+						<ul class="mb-0">
+							<li aria-haspopup="true" class="mt-3 d-none d-lg-block top-postbtn">
+								<span><a class="btn btn-secondary ad-post " href="register.html">Add Listing</a></span>
+							</li>
+						</ul>
+					</nav>
+					<!--Nav-->
+				</div>
+			</div>
+		</div>
+		<!--sliders Section-->
+		<div>
+			<div class="cover-image sptb-1 bg-background" data-bs-image-src="../assets/images/banners/banner1.jpg">
+				<div class="header-text1 mb-0">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-2 col-lg-12 col-md-12"></div>
+							<div class="col-xl-9 col-lg-12 col-md-12">
+								<div class="text-center text-white text-property">
+									<h1 ><span class="font-weight-bold">16,25</span> Agents Available</h1>
+								</div>
+								<div class=" search-background bg-transparent">
+									<div class="form row no-gutters">
+										<div class="form-group  col-xl-6 col-lg-5 col-md-12 mb-0">
+											<input type="text" class="form-control input-lg br-tr-md-0 br-br-md-0" id="text4" placeholder="Enter Loaction, Landmark">
+											<span><i class="fa fa-map-marker location-gps me-1"></i></span>
+										</div>
+										<div class="form-group col-xl-4 col-lg-4 select2-lg  col-md-12 mb-0">
+											<select class="form-control select2-show-search border-bottom-0 w-100" data-placeholder="Select">
+												<optgroup>
+													<option>Agent Categories</option>
+													<option value="1">Property for Rent</option>
+													<option value="2">Property for Sale</option>
+													
+												</optgroup>
+											</select>
+										</div>
+										<div class="col-xl-2 col-lg-3 col-md-12 mb-0">
+											<a href="javascript:void(0);" class="btn btn-lg btn-block btn-primary br-tl-md-0 br-bl-md-0">Search Now</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-2 col-lg-12 col-md-12"></div>
+						</div>
+					</div>
+				</div><!-- /header-text -->
+			</div>
+		</div>
+		<!--sliders Section-->
+
+		<!-- User-All-->
+		<section class="sptb">
+			<div class="container">
+				<div class="section-title center-block text-center">
+					<h2>Top Agent List</h2>
+					<p>Short description goes here...</p>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 users-list">
+						<div class="page-header bg-white mb-4 p-4 border br-5">
+							<select class="form-control page-select select2">
+								<option value="0">Select Options</option>
+								<option value="1">Active</option>
+								<option value="2">New</option>
+								<option value="3">A-Z</option>
+							</select>
+							<div class="page-options d-flex">
+								<div class="input-group">
+									<input type="text" class="form-control br-tl-3  br-bl-3" placeholder="search">
+									<button type="button" class="btn btn-primary br-tr-3  br-br-3">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-body">
+								<div class="user-tabel table-responsive">
+									<table class="table card-table table-bordered table-hover table-vcenter text-nowrap">
+										<tbody>
+											<tr>
+												<th >Profile Picture</th>
+												<th>Name</th>
+												<th>Membership Status</th>
+												<th>Member Since</th>
+												<th>View Agent</th>
+											</tr>
+												<td><span class="avatar avatar-md  d-block brround cover-image" data-bs-image-src="./assets/images/faces/female/16.jpg"></span></td>
+												<td><a href="userprofile.html" class="text-dark">Mary Butler</a></td>
+												<td><a href="javascript:void(0);" class="badge badge-info">Paused</a></td>
+												<td>November-29-2019</td>
+												<td>
+													<a href="userprofile.html" class="btn btn-purple btn-sm text-white" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fa fa-eye"></i></a>
+												</td>
+											</tr>
+											<tr>
+												<td><span class="avatar avatar-md  d-block brround cover-image" data-bs-image-src="./assets/images/faces/female/27.jpg"></span></td>
+												<td><a href="userprofile.html" class="text-dark">Janice Lane</a></td>
+												<td><a href="javascript:void(0);" class="badge badge-success">Active</a></td>
+												<td>November-25-2019</td>
+												<td>
+													<a href="userprofile.html" class="btn btn-purple btn-sm text-white" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fa fa-eye"></i></a>
+												</td>
+											</tr>
+											<tr>
+												<td><span class="avatar avatar-md  d-block brround cover-image" data-bs-image-src="./assets/images/faces/male/26.jpg"></span></td>
+												<td><a href="userprofile.html" class="text-dark">Anthony Miller</a></td>
+												<td><a href="javascript:void(0);" class="badge badge-info">Pasused</a></td>
+												<td>November-24-2019</td>
+												<td>
+													<a href="userprofile.html" class="btn btn-purple btn-sm text-white" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fa fa-eye"></i></a>
+												</td>
+											</tr>
+											<tr>
+												<td><span class="avatar avatar-md  d-block brround cover-image" data-bs-image-src="./assets/images/faces/female/9.jpg"></span></td>
+												<td><a href="userprofile.html" class="text-dark">Denise Elliott</a></td>
+												<td><a href="javascript:void(0);" class="badge badge-success">Active</a></td>
+												<td>November-21-2019</td>
+												<td>
+													<a href="userprofile.html" class="btn btn-purple btn-sm text-white" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fa fa-eye"></i></a>
+												</td>
+											</tr>
+											<tr>
+												<td><span class="avatar avatar-md  d-block brround cover-image" data-bs-image-src="./assets/images/faces/female/16.jpg"></span></td>
+												<td><a href="userprofile.html" class="text-dark">Rose Cook</a></td>
+												<td><a href="javascript:void(0);" class="badge badge-danger">Blocked</a></td>
+												<td>November-15-2019</td>
+												<td>
+													<a href="userprofile.html" class="btn btn-purple btn-sm text-white" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fa fa-eye"></i></a>
+												</td>
+											</tr>
+											<tr>
+												<td><span class="avatar avatar-md  d-block brround cover-image" data-bs-image-src="./assets/images/faces/male/17.jpg"></span></td>
+												<td><a href="userprofile.html" class="text-dark">Terry Tucker</a></td>
+												<td><a href="javascript:void(0);" class="badge badge-success">Active,paused</a></td>
+												<td>November-14-2019</td>
+												<td>
+													<a href="userprofile.html" class="btn btn-purple btn-sm text-white" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fa fa-eye"></i></a>
+												</td>
+											</tr>
+											<tr>
+												<td><span class="avatar avatar-md  d-block brround cover-image" data-bs-image-src="./assets/images/faces/female/6.jpg"></span></td>
+												<td><a href="userprofile.html" class="text-dark">Grace Knight</a></td>
+												<td><a href="javascript:void(0);" class="badge badge-success">Active</a></td>
+												<td>November-11-2019</td>
+												<td>
+													<a href="userprofile.html" class="btn btn-purple btn-sm text-white" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fa fa-eye"></i></a>
+												</td>
+											</tr>
+											<tr>
+												<td><span class="avatar avatar-md  d-block brround cover-image" data-bs-image-src="./assets/images/faces/female/26.jpg" ></span></td>
+												<td><a href="userprofile.html" class="text-dark">Elizabeth Martin</a></td>
+												<td><a href="javascript:void(0);" class="badge badge-success">Active,paused</a></td>
+												<td>November-05-2019</td>
+												<td>
+													<a href="userprofile.html" class="btn btn-purple btn-sm text-white" data-bs-toggle="tooltip" data-bs-original-title="View"><i class="fa fa-eye"></i></a>
+												</td>
+											</tr>
+											
+											
+											
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<ul class="pagination mb-0">
+							<li class="page-item page-prev disabled">
+								<a class="page-link" href="javascript:void(0);" tabindex="-1">Prev</a>
+							</li>
+							<li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
+							<li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+							<li class="page-item page-next">
+								<a class="page-link" href="javascript:void(0);">Next</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+		<!--Footer Section-->
+		<section class="main-footer">
+			<footer class="bg-dark text-white">
+				<div class="footer-main">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-3 col-md-12">
+								<h6>About</h6>
+								<hr class="deep-purple  accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<p>About us short description goes here...</p>
+							</div>
+							<div class="col-lg-2 col-sm-6">
+								<h6>Our Quick Links</h6>
+								 <hr class="deep-purple text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<ul class="list-unstyled mb-0">
+									<li><a href="javascript:;">Our Team</a></li>
+									<li><a href="javascript:;">Contact US</a></li>
+									<li><a href="javascript:;">Terms of services</a></li>
+									<li><a href="javascript:;">Our Blog</a></li>
+									<li><a href="javascript:;">Terms</a></li>
+								</ul>
+							</div>
+
+							<div class="col-lg-3 col-sm-6">
+								<h6>Contact</h6>
+								<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<ul class="list-unstyled mb-0">
+									<li>
+										<a href="javascript:void(0);"><i class="fa fa-home me-3 text-primary"></i> 191 Mwaikibaki Road, Kawe Beach, Dar es salaam.</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);"><i class="fa fa-envelope me-3 text-primary"></i> info@bps.com</a></li>
+									<li>
+										<a href="javascript:void(0);"><i class="fa fa-phone me-3 text-primary"></i> +255 763 210 607</a>
+									</li>
+									 <li>
+										<a href="javascript:void(0);"><i class="fa fa-print me-3 text-primary"></i> +255 765 272 081</a>
+									</li>
+								</ul>
+								<ul class="list-unstyled list-inline mt-3">
+									<li class="list-inline-item">
+									  <a class="btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light">
+										<i class="fa fa-facebook bg-facebook"></i>
+									  </a>
+									</li>
+									<li class="list-inline-item">
+									  <a class="btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light">
+										<i class="fa fa-twitter bg-info"></i>
+									  </a>
+									</li>
+									<li class="list-inline-item">
+									  <a class="btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light">
+										<i class="fa fa-google-plus bg-danger"></i>
+									  </a>
+									</li>
+									<li class="list-inline-item">
+									  <a class="btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light">
+										<i class="fa fa-linkedin bg-linkedin"></i>
+									  </a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-12">
+								<h6>Subscribe</h6>
+								<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<div class="clearfix"></div>
+								<div class="input-group w-100">
+									<input type="text" class="form-control br-tl-3  br-bl-3 " placeholder="Email">
+										<button type="button" class="btn btn-primary br-tr-3  br-br-3"> Subscribe </button>
+								</div>
+								<h6 class="mb-0 mt-5">Payments</h6>
+								<hr class="deep-purple  text-primary accent-2 mb-2 mt-3 d-inline-block mx-auto">
+								<div class="clearfix"></div>
+								<ul class="footer-payments">
+									<li class="ps-0"><a href="javascript:;"><i class="fa fa-cc-amex text-muted" aria-hidden="true"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-cc-visa text-muted" aria-hidden="true"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-credit-card-alt text-muted" aria-hidden="true"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-cc-mastercard text-muted" aria-hidden="true"></i></a></li>
+									<li><a href="javascript:;"><i class="fa fa-cc-paypal text-muted" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bg-dark text-white p-0">
+					<div class="container">
+						<div class="row d-flex">
+							<div class="col-lg-12 col-sm-12 mt-3 mb-3 text-center ">
+								Copyright © 2023 <a href="javascript:void(0);" class="fs-14 text-primary">Baobab Property Services</a>. All rights reserved.
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</section>
+		<!--Footer Section-->
+		
+		<!-- Back to top -->
+		<a href="#top" id="back-to-top" ><i class="fa fa-rocket"></i></a>
+
+
+		<!-- JQuery js-->
+		<script src="./assets/js/vendors/jquery-3.6.0.min.js"></script>
+
+		<!-- Bootstrap js -->
+		<script src="./assets/plugins/bootstrap-5/popper.min.js"></script>
+		<script src="./assets/plugins/bootstrap-5/js/bootstrap.min.js"></script>
+
+		<!--JQuery RealEstaterkline Js-->
+		<script src="./assets/js/vendors/jquery.sparkline.min.js"></script>
+
+		<!-- Circle Progress Js-->
+		<script src="./assets/js/vendors/circle-progress.min.js"></script>
+
+		<!-- Star Rating Js-->
+		<script src="./assets/plugins/rating/jquery.rating-stars.js"></script>
+
+		<!--Owl Carousel js -->
+		<script src="./assets/plugins/owl-carousel/owl.carousel.js"></script>
+
+		<!--Horizontal Menu-->
+		<script src="./assets/plugins/horizontal-menu/horizontal.js"></script>
+
+		<!--Counters -->
+		<script src="./assets/plugins/counters/counterup.min.js"></script>
+		<script src="./assets/plugins/counters/waypoints.min.js"></script>
+
+		<!--JQuery TouchSwipe js-->
+		<script src="./assets/js/jquery.touchSwipe.min.js"></script>
+
+		<!--Select2 js -->
+		<script src="./assets/plugins/select2/select2.full.min.js"></script>
+		<script src="./assets/js/select2.js"></script>
+
+	
+
+		<!-- Count Down-->
+		<script src="./assets/plugins/count-down/jquery.lwtCountdown-1.0.js"></script>
+
+		<!-- P-scroll bar Js-->
+		<script src="./assets/plugins/pscrollbar/perfect-scrollbar.js"></script>
+
+		<!-- sticky Js-->
+		<script src="./assets//js/sticky.js"></script>
+
+		<!-- Swipe Js-->
+		<script src="./assets/js/swipe.js"></script>
+
+		<!-- Scripts Js-->
+		<script src="./assets/js/owl-carousel.js"></script>
+
+		<!-- themecolor Js-->
+		<script src="./assets/js/themeColors.js"></script>
+
+		<!-- Custom Js-->
+		<script src="./assets/js/custom.js"></script>
+
+		<!-- Custom-switcher Js-->
+		<script src="./assets/js/custom-switcher.js"></script>
+
+	</body>
+</html>
